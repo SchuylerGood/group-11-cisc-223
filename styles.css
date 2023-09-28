@@ -3,6 +3,16 @@ html, body{
     color: white;
     margin: 0;
     padding: 0;
+    overflow: hidden
+}
+.bg-image{
+    /* background-image: url("/images/background.svg"); */
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 }
 .splashscreen{
     width: 100vw;
@@ -10,12 +20,13 @@ html, body{
     /* aspect-ratio: 3/2; */
     margin: 0;
     padding: 0;
-    background-image: url(../../images/background.svg);
+    /* background-image: url("/images/background.svg"); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
 }
 h1{
     text-align: center;
@@ -27,6 +38,7 @@ h1{
     height: 65vh;
     border-radius: 40px;
     padding: 50px;
+    z-index: 2;
 }
 .assignments{
     display: flex;
