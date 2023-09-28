@@ -10,7 +10,7 @@ html, body{
     /* aspect-ratio: 3/2; */
     margin: 0;
     padding: 0;
-    background-image: url(../images/background.svg);
+    background-image: url(/images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
