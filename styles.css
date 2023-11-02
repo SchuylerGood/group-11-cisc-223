@@ -115,22 +115,36 @@ h1{
 .assignment-page{
     background: #001122;
     width: 50%;
-    height: 90%;
     border-radius: 40px;
     padding: 24px 120px;
     z-index: 3;
+}
+h1{
+    /* padding: 48px; */
+    margin-bottom: 20px;
+}
+.pane{
+
+}
+.splashscreen2{
+    width: 100vw;
+    /* aspect-ratio: 3/2; */
+    margin: 0;
+    padding: 0;
+    /* background-image: url("/images/background.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
-}
-.assignment-page h1{
-    padding: 48px;
-}
-.half-pane{
-    width: 50%;
-}
-.half-pane2{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    z-index: 3;
+}
+.pdf{
+    max-height: 1200px;
+    overflow: scroll;
+}
+.youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
